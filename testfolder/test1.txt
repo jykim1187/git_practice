@@ -1,2 +1,3 @@
 hello world1
 hello world2 text after deleting token
+hello world3 after inserting token directly
