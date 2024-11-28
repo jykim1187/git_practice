@@ -51,3 +51,17 @@ git reset head^
 git diff A B
 git diff commitID1 commitID2
 git diff 브랜치1 브랜치2
+
+# 브랜치 생성
+# 현재 checkout하고 있는 브랜치를 기준으로 새로운 브랜치 생성
+git branch 브랜치명
+
+# 브랜치 전환
+git checkout 브랜치명
+
+# 브랜치 목록 조회
+git branch
+
+# 브랜치 생성과 전환을 동시에
+git checkout -b 브랜치명
+
