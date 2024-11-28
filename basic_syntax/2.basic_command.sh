@@ -74,8 +74,5 @@ git branch -D 브랜치명
 # git fetch : 원격에 변경사항을 local에 가져오되, 병합은 하지 않는 것
 # 비교 : git pull origin main vs git fetch origin main
 
-
-
-
 # 원격에서 삭제된 브랜치 로컬에 반영(orgin/feat1)
 git fetch --all --prune
