@@ -27,5 +27,11 @@ git log --graph
 # 원격저장소로 업로드
 git push origin 브랜치명
 
-# 충돌발생시 무시하고 강제 push
+# 충돌발생시 무시하고 강제 push(로컬커밋 기준으로 원격지를 덮어씌우는 것)
 git push origin main --force
+
+# pull은 원격지의 커밋사항을 local로 다운로드(working directory까지 반영)
+git pull origin main
+
+# 특정 commit ID로의 전환
+git checkout 커밋ID
