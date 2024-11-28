@@ -24,6 +24,10 @@ git log --oneline
 # 커밋이력을 그래프 형태로 조회
 git log --graph
 
+# head하단의 log만 보이는 것이 아니라, 모든 log 조화
+# head는 현재 checkout하고 있는 commit가리킴.
+git log --all
+
 # 원격저장소로 업로드
 git push origin 브랜치명
 
@@ -35,3 +39,9 @@ git pull origin main
 
 # 특정 commit ID로의 전환
 git checkout 커밋ID
+
+# working directory작업 및 staging area에서의 취소는 UI사용할 것
+
+# 가장 최신의 커밋 취소
+git reset head~1
+git reset head^
