@@ -51,3 +51,9 @@ git config --global user.name "유저email"
 git config --local user.name "유저네임"
 git config --local user.name "유저 email"
 
+# 사용자 이름 조회
+git config user.name
+# 사용자 이메일 조회
+git config user.email
+
+dsdsd
