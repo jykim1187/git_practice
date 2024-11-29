@@ -11,14 +11,5 @@ hello wolrld 11 when 11/29
 world12 //11.29
 local  hello world13
 hello world 15 but in workplace 14
-hello world 14 after merginf=g
-helloworld 15 real
-hello world 16 in workplace 15
-hello world 18 by workplace
-helloworld 17 by remote 
-now merge
-hello world20
-hello world21
-hello world22
-hello world23
+hello world 14 
 
